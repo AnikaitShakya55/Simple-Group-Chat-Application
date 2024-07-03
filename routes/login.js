@@ -7,7 +7,8 @@ router.get('/',(req,res,next)=>{
       
     <h1>Login Page </h1>
 
-    <form onsubmit="localStorage.setItem('username',document.getElementById('username').value)" action="/loginId" method="POST">
+    <form onsubmit="localStorage.setItem('username',document.getElementById('username').value)" 
+    action="/loginId" method="POST">
     <input id="username" type="text" name="title" placeholder="username">
     <br>
     <button type="submit">Login</button>
